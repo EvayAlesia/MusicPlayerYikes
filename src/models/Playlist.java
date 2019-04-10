@@ -13,13 +13,13 @@ public class Playlist {
 		this.counter = 0;
 		playlist = new ArrayList<Song>();
 		// TODO Remove 
-		playlist.add(new Song(null, "E:/Music/To the Moon - Original Soundtrack/17 Take Me Anywhere.mp3" ));
-		playlist.add(new Song(null, "E:/Music/To the Moon - Original Soundtrack/01 To the Moon - Main Theme.mp3" ));
-		playlist.add(new Song(null, "E:/Music/Aimer/Your Favorite Things/10 Change the World.mp3" )); 
-		playlist.add(new Song(null, "E:/Music/Jersey Boys [2014] Soundtrack YG/Album/02. December, 1963 (Oh, What A Night).mp3"));
-		playlist.add(new Song(null, "E:/Music/Jersey Boys [2014] Soundtrack YG/Album/23. Sherry.mp3"));
-		playlist.add(new Song(null, "E:/Music/Golden Time/Golden Time OP ED Single/[Nipponsei]_Golden_Time_OP_ED_Single_-_Golden_Time_[Horie_Yui]/01 - Golden Time.mp3"));
-		
+//		playlist.add(new Song("E:/Music/To the Moon - Original Soundtrack/17 Take Me Anywhere.mp3" ));
+//		playlist.add(new Song("E:/Music/To the Moon - Original Soundtrack/01 To the Moon - Main Theme.mp3" ));
+//		playlist.add(new Song("E:/Music/Aimer/Your Favorite Things/10 Change the World.mp3" )); 
+//		playlist.add(new Song("E:/Music/Jersey Boys [2014] Soundtrack YG/Album/02. December, 1963 (Oh, What A Night).mp3"));
+//		playlist.add(new Song("E:/Music/Jersey Boys [2014] Soundtrack YG/Album/23. Sherry.mp3"));
+//		playlist.add(new Song("E:/Music/Golden Time/Golden Time OP ED Single/[Nipponsei]_Golden_Time_OP_ED_Single_-_Golden_Time_[Horie_Yui]/01 - Golden Time.mp3"));
+		playlist.add(new Song("C:\\Users\\Jimmy\\Music\\----daze - Daze [Nico Nico Chorus].mp3"));
 	}
 	public Playlist(File io){}
 	

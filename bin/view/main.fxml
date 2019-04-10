@@ -9,6 +9,7 @@
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
@@ -16,11 +17,12 @@
    <right>
       <Pane prefHeight="767.0" prefWidth="672.0" BorderPane.alignment="CENTER">
          <children>
+            <ImageView fx:id="albumart" fitHeight="296.0" fitWidth="672.0" pickOnBounds="true" preserveRatio="true" />
             <Button fx:id="play" layoutX="71.0" layoutY="269.0" mnemonicParsing="false" onAction="#playmusic" text="Play" />
             <Button fx:id="previous" layoutX="9.0" layoutY="269.0" mnemonicParsing="false" onAction="#previous" text="Previous" />
             <Button fx:id="next" layoutX="110.0" layoutY="269.0" mnemonicParsing="false" onAction="#next" text="Next" />
             <Button fx:id="shuffle" layoutX="151.0" layoutY="269.0" mnemonicParsing="false" text="Shuffle" />
-            <Button fx:id="stop" layoutX="256.0" layoutY="238.0" mnemonicParsing="false" onAction="#stop" text="Stop" />
+            <Button fx:id="stop" layoutX="256.0" layoutY="238.0" mnemonicParsing="false" text="Stop" />
             <Slider fx:id="volumeSlider" layoutX="504.0" layoutY="279.0" onMouseDragged="#changeVolume" prefHeight="14.0" prefWidth="155.0" value="50.0" />
             <Separator layoutX="-2.0" layoutY="288.0" prefHeight="24.0" prefWidth="672.0" />
             <TextField layoutX="377.0" layoutY="732.0" prefHeight="25.0" prefWidth="285.0" />
@@ -33,6 +35,7 @@
               </items>
             </MenuButton>
             <ListView layoutY="301.0" prefHeight="425.0" prefWidth="672.0" />
+            <Button fx:id="playlist" layoutX="412.0" layoutY="212.0" mnemonicParsing="false" text="Create Playlist" onAction="#createPlaylist"/>
             
          </children>
       </Pane>

@@ -9,6 +9,7 @@
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
@@ -16,6 +17,7 @@
    <right>
       <Pane prefHeight="767.0" prefWidth="672.0" BorderPane.alignment="CENTER">
          <children>
+            <ImageView fx:id="albumart" fitHeight="296.0" fitWidth="672.0" pickOnBounds="true" preserveRatio="true" />
             <Button fx:id="play" layoutX="71.0" layoutY="269.0" mnemonicParsing="false" onAction="#playmusic" text="Play" />
             <Button fx:id="previous" layoutX="9.0" layoutY="269.0" mnemonicParsing="false" onAction="#previous" text="Previous" />
             <Button fx:id="next" layoutX="110.0" layoutY="269.0" mnemonicParsing="false" onAction="#next" text="Next" />
@@ -33,6 +35,7 @@
               </items>
             </MenuButton>
             <ListView layoutY="301.0" prefHeight="425.0" prefWidth="672.0" />
+            <Button fx:id="playlist" layoutX="412.0" layoutY="212.0" mnemonicParsing="false" onAction="#createPlaylist" text="Create Playlist" />
             
          </children>
       </Pane>
